@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  background-color: black;
 }
-
+body {
+  background-color: black;
+}
+.App h1 {
+  color: red;
+}
+.manyak-pedofil {
+  height: 600px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,6 +31,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.text-desc {
+  text-align: left;
+  width: 50%;
+  margin-left: 38%;
 }
 
 .App-link {

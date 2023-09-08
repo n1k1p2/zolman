@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+import zolmanlogo from './zolmanio.jpg';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>ВНИМАНИЕ!!!</h1>
+      <h1>РАЗЫСКИВАЕТСЯ ПЕДОФИЛ, МАНЬЯК, УБИЙЦА, ТЕРРОРИСТ</h1>
+      <img className='manyak-pedofil' src={zolmanlogo}></img>
+      <div className='text-desc'>
+      <h1>ОПИСАНИЕ ВНЕШНОСТИ</h1>
+      <h1>РОСТ: 185СМ</h1>
+      <h1>ВЕС: 68КГ</h1>
+      <h1>ТЕЛОСЛОЖЕНИЕ: БОГАТЫРЬ</h1>
+      <h1>ТАТУИРОВКИ: КУПОЛА</h1>
+      </div>
     </div>
   );
 }
